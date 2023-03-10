@@ -35,7 +35,7 @@ export default {
     return {
       rowNames: ['H', 'G', 'F', 'E', 'D', 'C', 'B', 'A'],
       colNames: [1, 2, 3, 4, 5, 6, 7, 8],
-      clicks: [],
+      clicks: [] as Array<[string, number]>,
       boardSize: 100
     }
   },
